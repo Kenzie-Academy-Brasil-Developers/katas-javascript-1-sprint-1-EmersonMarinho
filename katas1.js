@@ -1,8 +1,12 @@
 function oneThroughTwenty() {
-    
+  
+  let onetwenty = [];
+  
   for (let i = 1; i <= 21; i++){
     console.log(i)}
 }
+
+  return onetwenty;
 
 //call function oneThroughTwenty
 
@@ -87,3 +91,16 @@ function squareNumbersBackwards() {
 }
 
 //call function squareNumbersBackwards
+
+function oneThroughFive() {
+
+  let meuRetorno = [];
+
+  for (let counter = 1; counter <= 5; counter++) {
+      //código
+  }
+
+  return meuRetorno;
+}
+
+console.log(oneThroughFive());
