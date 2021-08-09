@@ -142,7 +142,7 @@ function squareNumbersBackwards() {
   let squareback = [];
   
   for (let i = 10; i >= 2; i--){
-    console.log(i)
+    console.log(i * i)
   
   }
   return squareback;
